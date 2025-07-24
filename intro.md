@@ -1,5 +1,5 @@
 # Introduction
-![table-tennis](images/intro.jpg)
+![table-tennis](intro.jpg)
 
 ## Overview  
 This package provides an authentication system developed in C# using .NET 8. It includes core components such as the token provider, password manager, user manager, and sign-in manager.

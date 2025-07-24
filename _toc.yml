@@ -4,10 +4,10 @@
 format: jb-book
 root: intro
 chapters:
-- file: started
-- file: tutorial
-- file: functionalities
-- file: experimental
-- file: resources
-- file: projects
-- file: developer
+- file: pages/started
+- file: pages/tutorial
+- file: pages/functionalities
+- file: pages/experimental
+- file: pages/resources
+- file: pages/projects
+- file: pages/developer
