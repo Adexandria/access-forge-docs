@@ -44,7 +44,6 @@ jobs:
          git add .
          git commit -m "Add user guide"
          git config pull.rebase false 
-         git pull origin gh-pages --allow-unrelated-histories
-         git push origin docs-deploy:gh-pages
+         git push -f origin docs-deploy:gh-pages
       env: 
         GH_TOKEN: ${{secrets.DEPLOYMENT}}
